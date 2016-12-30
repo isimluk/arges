@@ -1,4 +1,4 @@
-require "arges/version"
+require 'arges/version'
 
 module Arges
   # Your code goes here...
