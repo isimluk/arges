@@ -1,5 +1,5 @@
-require 'arges/version'
+Dir[__dir__ + '/arges/*.rb'].each { |file| require file }
 
 module Arges
-  # Your code goes here...
+  Transactions = InputData.transactions
 end
